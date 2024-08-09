@@ -1,0 +1,8 @@
+my_string = input('Произольный текст: ')
+print('Длина строки: ', len(my_string))
+print('Верхний регистр: ', my_string.upper())
+print('Нижний регистр: ', my_string.lower())
+my_string_new = ''.join(list(map(lambda x: x.strip(), my_string.split())))
+print('Без пробелов: ', my_string_new)
+print('Первый символ: ', my_string[0])
+print('Последний символ: ', my_string[-1])
